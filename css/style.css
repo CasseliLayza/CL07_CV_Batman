@@ -1,33 +1,108 @@
-.encabezado {
-  text-align: center;
-  background: #E6E6E6;
-  padding-top: 17px;
+body{
+  background-image: url("../img/fondo7.jpg");
+  background-size: cover;
+  
+}
 
+.encabezado {
+  text-align: Center;
+  font-family: 'Roboto', sans-serif;
+  color: azure;
+  font-size: 24px;
+  font-weight: bolder;
+  padding-top: 17px;
+  padding-bottom: 30px;
+  background-image: url("../img/banner8.jpg");
+ 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0px 20px;
+  height: 100px;
+  border-radius: 17Px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px rgba(28, 30, 31, 0.93);
+
+}
+
+
+.encabezado:hover{
+  text-align: center;
+  background-image: url("../img/banner4.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 270px;
+  
 }
 
 .titulo {
-  font-family: "Times New Roman";
-  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
   color: #005677;
-  text-align: center;
-  background: #c4c4c4;
+  text-align: left;
+  background: #d0d6d5;
   letter-spacing: 10pt;
+  background-image: url("../img/casseli.jpg");
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position:98.3%;
+  
+  margin: 0px 20px;
+  height: 100px;
+  border-radius: 17Px;
+  padding-top: 37px;
+  border: 1px solid black;
+  background-color: #d0d6d5;
+  transition: background-color 5s;
+  text-shadow: 3px 3px 1px black;
+  box-shadow: 5px 5px 5px rgba(181, 181, 181, 0.93);
+
+}
+
+.titulo:hover{
+ 
+  color: white;
+  background-color: rgb(5, 191, 198);
+  font-style: italic;
+  transition: background-color 2s;
+  box-shadow: 7px 7px 7px #747474;
+  text-decoration: none;
+
+}
+
+
+h1 {
+  margin: 0px 20px;
 }
 
 .tituloSeleccion {
-  font-family: "Times New Roman";
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  color: #005677;
-  background: #c4c4c4;
+  color: #00374d;
+  background: #d0d6d5;
   letter-spacing: 5pt;
+  margin: 0px 20px;
+  border-radius: 7px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px rgba(28, 30, 31, 0.93);
+
 }
 
-.indent {
-  padding-left: 79px;
+.tituloSeleccion:hover{
+ 
+  color: white;
+  background-color: rgb(5, 191, 198);
+  font-style: italic;
+  transition: background-color 2s;
+  box-shadow: 7px 7px 7px #747474;
+  text-decoration: none;
+
 }
+
 
 .fuenteSeccions {
   font-family: "Times New Roman";
+  padding-left: 20%;
+  padding-right: 35%;
 }
 
 .dtsPersonals .negritaCursiba {
@@ -44,13 +119,36 @@
   font-weight: bolder;
 }
 
+.indent {
+  padding-left: 79px;
+}
+
 .pieDePagina {
   background: #005677;
   text-align: center;
   color: #FFFFFF;
   padding: 10px;
+  margin: 0px 20px;
+  border-radius: 7px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px rgba(28, 30, 31, 0.93);
+  
 }
 
 .iconspace {
   padding-left: 10px;
 }
+
+.sobreMI {
+  padding-left: 87%;
+  font-style: oblique;
+  font-weight: bolder;
+  color: rgb(56, 91, 3);
+  
+}
+
+.icons {
+  font-size: 3rem;
+  color: rgb(118, 30, 207);
+}
+

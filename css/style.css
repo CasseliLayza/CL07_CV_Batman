@@ -1,7 +1,8 @@
-body{
+body {
   background-image: url("../img/fondo7.jpg");
   background-size: cover;
-  
+
+
 }
 
 .encabezado {
@@ -13,7 +14,7 @@ body{
   padding-top: 17px;
   padding-bottom: 30px;
   background-image: url("../img/banner8.jpg");
- 
+
   background-size: 100%;
   background-repeat: no-repeat;
   margin: 0px 20px;
@@ -25,13 +26,13 @@ body{
 }
 
 
-.encabezado:hover{
+.encabezado:hover {
   text-align: center;
   background-image: url("../img/banner4.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   height: 270px;
-  
+
 }
 
 .titulo {
@@ -44,8 +45,8 @@ body{
   background-image: url("../img/casseli.jpg");
   background-size: 100px;
   background-repeat: no-repeat;
-  background-position:98.3%;
-  
+  background-position: 98.3%;
+
   margin: 0px 20px;
   height: 100px;
   border-radius: 17Px;
@@ -58,8 +59,8 @@ body{
 
 }
 
-.titulo:hover{
- 
+.titulo:hover {
+
   color: white;
   background-color: rgb(5, 191, 198);
   font-style: italic;
@@ -87,8 +88,8 @@ h1 {
 
 }
 
-.tituloSeleccion:hover{
- 
+.tituloSeleccion:hover {
+
   color: white;
   background-color: rgb(5, 191, 198);
   font-style: italic;
@@ -111,6 +112,16 @@ h1 {
 
 }
 
+.dtsPersonals .negritaCursibaSobreMI {
+
+  font-family: 'Merriweather', serif;
+  font-weight: bolder;
+  font-style: oblique;
+  color: rgb(5, 94, 45);
+  font-size: 17px;
+
+}
+
 .formacionAcademica .negrita {
   font-weight: bolder;
 }
@@ -124,7 +135,8 @@ h1 {
 }
 
 .pieDePagina {
-  background: #005677;
+  background: #0493cb;
+  font-size: 20px;
   text-align: center;
   color: #FFFFFF;
   padding: 10px;
@@ -132,7 +144,18 @@ h1 {
   border-radius: 7px;
   border: 1px solid black;
   box-shadow: 5px 5px 5px rgba(28, 30, 31, 0.93);
-  
+
+}
+
+.pieDePagina:hover {
+
+  color: white;
+  background-color: rgb(5, 191, 198);
+  font-style: italic;
+  transition: background-color 2s;
+  box-shadow: 7px 7px 7px #747474;
+  text-decoration: none;
+
 }
 
 .iconspace {
@@ -143,8 +166,9 @@ h1 {
   padding-left: 87%;
   font-style: oblique;
   font-weight: bolder;
-  color: rgb(56, 91, 3);
-  
+  color: rgb(57, 90, 9);
+
+
 }
 
 .icons {
@@ -152,3 +176,10 @@ h1 {
   color: rgb(118, 30, 207);
 }
 
+
+.movesPages {
+  text-decoration: none;
+  color: rgb(17, 141, 12);
+
+
+}
